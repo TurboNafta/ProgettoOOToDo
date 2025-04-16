@@ -1,4 +1,4 @@
-package org.prova;
+package model;
 
 import java.util.ArrayList;
 
