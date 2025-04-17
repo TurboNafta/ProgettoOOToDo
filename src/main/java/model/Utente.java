@@ -1,4 +1,4 @@
-package org.prova;
+package model;
 
 public class Utente {
     private String login;
