@@ -4,6 +4,11 @@ public class Utente {
     private String login;
     private String password;
 
+    public Utente (){
+        this.login=login;
+        this.password=password;
+    }
+
     public void CreaBacheca(Bacheca bacheca) {
     }
 
@@ -14,7 +19,7 @@ public class Utente {
 
     }
 
-    public void LeggereUtenti(Todo todo){
+    public void LeggereUtenti(ToDo todo){
 
     }
 

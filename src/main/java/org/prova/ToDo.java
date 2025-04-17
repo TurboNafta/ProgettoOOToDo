@@ -15,4 +15,17 @@ public class ToDo {
     private Utente autore;
     private ArrayList <Utente> condivisione;
     private CheckList checklist;
+
+    public ToDo(){
+        this.titolo = titolo;
+        this.scadenza = scadenza;
+        this.link = link;
+        this.url = url;
+        this.descrizione = descrizione;
+        this.immagine = immagine;
+        this.coloresfondo = coloresfondo;
+        this.autore = autore;
+        this.condivisione= new ArrayList<>();
+        this.checklist = new CheckList();
+    }
 }
